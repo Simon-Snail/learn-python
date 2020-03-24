@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-' a test module '
+'单词趣味练习'
 
 __author__ = 'Simon'
 
-# 单词趣味练习
+import random
+
 # 怪物👹
 page1 = {'please enter your name': '请输入你的名字',
          'Sorry, try again.': '对不起，请重试', 'send usage statistics': '发送使用统计'}
@@ -54,16 +55,25 @@ while True:
                     break
                 print()
                 page = input('【进入】：')
+                errorSum = 0
                 while True:
                     print()
                     if page in Jiuwulin:
                         print('已进入：%s...开始试炼...🔪' % page)
+                        key = random.choice(list(Jiuwulin[page].keys()))
+                        value = Jiuwulin[page][key]
+                        print('%s先你一步，向你抛出了终极问题【%s】，你可以用对等的攻击抵消...' %
+                              (page, value))
                         word = input('请输入攻击命令：🔪')
                         print()
-                        if word in Jiuwulin[page]:
-                            print('使用【%s】攻击成功，但【%s】一脸鄙视😒' % (word, page))
+                        if word == key:
+                            print('使用【%s】抵消成功，但【%s】一脸鄙视😒' % (word, page))
                         else:
-                            print('使用【%s】攻击失败，并且【%s】打了你一拳' % (word, page))
+                            errorSum = errorSum + 1
+                            print('使用【%s】抵消失败，并且【%s】打了你一拳👊' % (word, page))
+                            if errorSum == 3:
+                                errorSum = 0
+                                print('【%s】想你发出了嘲讽👎：太菜了......嘀嘀咕咕' % page)
                     else:
                         print('进入失败')
                     b = input('是否逃跑💨<y/n>: ')
