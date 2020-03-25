@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-'单词趣味练习'
+'单词趣味练习单机版🎮'
 
 __author__ = 'Simon'
 
 import random
 
-# 怪物👹
+# 妖界👹
 page1 = {'please enter your name': '请输入你的名字',
          'Sorry, try again.': '对不起，请重试', 'send usage statistics': '发送使用统计'}
 page2 = {'not defined': '没有定义的',
          'list index out of range': '列表索引超出范围', 'classmates': '同学们'}
 page3 = {'invalid syntax': '语法无效', 'kid': '小子',
-         'teenager': '青少年', 'adult': '成人'}
+         'teenager': '青少年', 'adult': '成人', 'baby' : '宝宝', 'Aunt' : '阿姨'}
 page4 = {'not installed': '未安装', 'bookcase': '书柜',
          'exercise book': '练习簿', 'word': '单词'}
 page5 = {'function': '函数，功能', 'collection': '集合',
@@ -25,8 +25,15 @@ page7 = {'Moment': 'n. 重要，契机；瞬间；重要时刻；指定时刻', 
          'shake': '摇动', 'search': '搜索', 'tag': '标签', 'me': '我', 'chat': '闲谈，聊天, 聊天室',
          'contact': '联系', 'contacts': '联系人', 'discover': '发现'}
 
-# 试炼🔪
+# 地区🔪
 Jiuwulin = {'山贼': page1, '黄鼠狼勇士': page2, '黄鼠狼射手': page3, '朱雀': page4}
+Changyangshan = {}
+Tianshan = {}
+Sishui = {}
+Liulihuanjing = {}
+Shentu = {}
+
+Jiuli = {'酒乌林' : 'Jiuwulin'}
 
 weixin = {}
 qq = {}

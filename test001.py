@@ -3,7 +3,7 @@
 # print('中文测试正常')
 #name = input("please enter you name: ")
 #print("Hello, ", name)
-#print("100+200+300=",100+200+300)
+# print("100+200+300=",100+200+300)
 # classmates = ['java', 'php', 'python']
 # n = 2
 # r = []
@@ -15,8 +15,16 @@
 
 # l = list(range(100))
 # print(l[:])
-import random
+# import random
 
-Wuhegu = {'taotie' : '饕餮', 'gonggong' : '共工', 'kuafu' : '夸父'}
-a= random.choice(list(Wuhegu.keys()))
-print(a)
+# Wuhegu = {'taotie' : '饕餮', 'gonggong' : '共工', 'kuafu' : '夸父'}
+# a= random.choice(list(Wuhegu.keys()))
+# print(a)
+# print([x*x for x in range(11)])
+# print([m + n + x for m in 'ABC' for n in 'DEF' for x in 'XYZ'])
+# import os
+# l = os.listdir('.')
+# print(l)
+# 导入turtle包的所有内容:
+
+
