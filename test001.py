@@ -26,5 +26,24 @@
 # l = os.listdir('.')
 # print(l)
 # 导入turtle包的所有内容:
+# import os
+# print([x*x for x in range(1,10) if x%2 == 0])
 
+# l = [x + n for x in 'ABC' for n in 'CDF']
+# print(l)
+# print([d for d in os.listdir()])
+# L = ['Hello', 'World', 18, 'Apple', None]
+# g = (x.lower() for x in L if isinstance(x, str))
+# print(next(g))
+# from datetime import datetime
+# now = datetime.now()
+# print(now)
 
+def add(x, y, f):
+    return f(x) + f(y)
+
+L1 = ['adam', 'LISA', 'barT']
+def normalize(name):
+    return name.title()
+f = abs
+print(add(-1, -2, f))
