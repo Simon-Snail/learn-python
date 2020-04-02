@@ -27,11 +27,17 @@ page7 = {'Moment': 'n. 重要，契机；瞬间；重要时刻；指定时刻', 
 
 # Animal
 # watch
-page7 = {'Elastic Compute Service': '弹性计算服务简称：云服务器ECS'}
+page8 = {'Elastic Compute Service': '弹性计算服务简称：云服务器ECS'}
+
+page9 = {'this is the first comment': '这是第一条评论', 'floor division': '向下取整', 'immutable': '不可变'}
+
+page10 = {'retries': '重试','reminder': '提醒','prompt': '提示'}
+
+sequence = {'list': '列表，清单，明细表', 'tuple': '元组', 'range': '范围','sequence': '序列'}
 
 # 地区🔪
 Jiuwulin = {'山贼': page1, '黄鼠狼勇士': page2, '黄鼠狼射手': page3,
-            '朱雀': page4, '村民': page5, '流浪武士': page6}
+            '朱雀': page4, '村民': page5, '流浪武士': page6, '鸣蛇': page7}
 Changyangshan = {}
 Tianshan = {}
 Sishui = {}

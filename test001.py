@@ -39,11 +39,32 @@
 # now = datetime.now()
 # print(now)
 
+
 def add(x, y, f):
     return f(x) + f(y)
 
+
 L1 = ['adam', 'LISA', 'barT']
+
+
 def normalize(name):
     return name.title()
-f = abs
-print(add(-1, -2, f))
+
+
+python = 'python'
+#####    输出   #####
+words = ['python', 'java', 'c']
+print("""
+Usage: thingy [OPTIONS]
+     -h                        Display this usage message
+     -H hostname               Hostname to connect to
+""")
+
+i = 5
+i = 6
+def f(arg=i):
+    print(arg)
+
+
+f()
+
