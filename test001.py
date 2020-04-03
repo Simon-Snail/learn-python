@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+from pojo import Student
 # print('中文测试正常')
 #name = input("please enter you name: ")
 #print("Hello, ", name)
@@ -67,4 +68,9 @@ def f(arg=i):
 
 
 f()
+
+from collections import deque
+t = 12345, 54321, 'hello!'
+a, b, c = t
+print(a, b, c)
 

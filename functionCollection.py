@@ -32,6 +32,7 @@ def my_trim(x):
 
 # 请使用迭代查找一个list中最小和最大值，并返回一个tuple：
 nums = [1, 3, 5, 0, 9]
+nums.insert()
 ma = mi = nums[0]
 for num in nums:
     if num > ma:
@@ -43,3 +44,4 @@ print(ma, mi)
 print(my_abs(-3))
 print(my_power(2))
 print(my_trim('  asd '))
+
