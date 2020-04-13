@@ -17,10 +17,10 @@ page3 = {'invalid syntax': '语法无效', 'kid': '小子',
 page4 = {'not installed': '未安装', 'bookcase': '书柜',
          'exercise book': '练习簿', 'word': '单词'}
 page5 = {'function': '函数，功能', 'collection': '集合',
-         'power': '功率，力量，幂', 'array': '数组'}
+         'power': '功率，力量，幂', 'array': '数组', 'synchronized': '同步'}
 page6 = {'WeChat': '微信', 'pay': '支付', 'favorites': 'n. 收藏夹',
          'My Posts': '我的帖子', 'settings': '设置', 'health': 'n. 健康；卫生；保健；兴旺', 'check': '检查', 'heartbeat': '心跳'}
-page7 = {'Moment': 'n. 重要，契机；瞬间；重要时刻；指定时刻', 'Moments': 'n. 片刻（moment复数形式）--朋友圈',
+page7 = {'moment': 'n. 重要，契机；瞬间；重要时刻；指定时刻', 'moments': 'n. 片刻（moment复数形式）--朋友圈',
          'scan': 'vt. 扫描；浏览；细看；详细调查；标出格律 vi. 扫描；扫掠 n. 扫描；浏览；审视；细看 --扫一扫',
          'shake': '摇动', 'search': '搜索', 'tag': '标签', 'me': '我', 'chat': '闲谈，聊天, 聊天室',
          'contact': '联系', 'contacts': '联系人', 'discover': '发现'}
@@ -29,11 +29,13 @@ page7 = {'Moment': 'n. 重要，契机；瞬间；重要时刻；指定时刻', 
 # watch
 page8 = {'Elastic Compute Service': '弹性计算服务简称：云服务器ECS'}
 
-page9 = {'this is the first comment': '这是第一条评论', 'floor division': '向下取整', 'immutable': '不可变'}
+page9 = {'this is the first comment': '这是第一条评论', 'floor division': '向下取整',
+         'immutable': '不可变', 'A simple example class': '一个简单的示例类', 'A simple example': '一个简单的例子'}
 
-page10 = {'retries': '重试','reminder': '提醒','prompt': '提示'}
+page10 = {'retries': '重试', 'reminder': '提醒', 'prompt': '提示'}
 
-sequence = {'list': '列表，清单，明细表', 'tuple': '元组', 'range': '范围','sequence': '序列'}
+sequence = {'list': '列表，清单，明细表', 'tuple': '元组',
+            'range': '范围', 'sequence': '序列'}
 
 # 地区🔪
 Jiuwulin = {'山贼': page1, '黄鼠狼勇士': page2, '黄鼠狼射手': page3,

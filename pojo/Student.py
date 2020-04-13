@@ -32,4 +32,5 @@ class Student(object):
 
 
 student = Student('xiaoming', 'nan', 20)
-print(student.__init__())
+print(student._Student__age)
+print(student.__dir__())
