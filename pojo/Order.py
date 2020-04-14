@@ -1,5 +1,8 @@
 class Order(object):
 
+    name = 'order'
+
+    @property
     def get_orderCode(self):
         return self.__orderCode
 
@@ -18,15 +21,24 @@ class Order(object):
     def set_number(self, number):
         self.__number = number
 
-    def __init__(self, name):
-        self.__product = name
-
+    def __init__(self, index):
+        self.i = index
 
     def toString(self):
         print(f'orderCode:{self.__orderCode}, product:{self.__product}, number:{self.__number}')
 
-order = Order()
+    def __getattr__(self, attr):
+        print('not find')
+
+
+
+
+
+order = Order(1)
 order.set_orderCode(13672674127)
 order.set_product('ali小蜜')
 order.set_number(1)
-print(order.__dict__)
+
+print(order.get_orderCode)
+print(hasattr(order, 'toString'))
+print(order.age)
