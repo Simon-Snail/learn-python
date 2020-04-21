@@ -40,7 +40,7 @@ sequence = {'list': '列表，清单，明细表', 'tuple': '元组',
 # 地区🔪
 Jiuwulin = {'山贼': page1, '黄鼠狼勇士': page2, '黄鼠狼射手': page3,
             '朱雀': page4, '村民': page5, '流浪武士': page6, '鸣蛇': page7}
-Changyangshan = {'冰鸟': page9, ''}
+Changyangshan = {'冰鸟': page9}
 Tianshan = {}
 Sishui = {}
 Liulihuanjing = {}
