@@ -38,8 +38,8 @@ sequence = {'list': '列表，清单，明细表', 'tuple': '元组',
             'range': '范围', 'sequence': '序列'}
 
 # 地区🔪
-Jiuwulin = {'山贼': page1, '黄鼠狼勇士': page2, '黄鼠狼射手': page3,
-            '朱雀': page4, '村民': page5, '流浪武士': page6, '鸣蛇': page7}
+Jiuwulin = {'shanzei': page1, '黄鼠狼勇士': page2, '黄鼠狼射手': page3,
+            'zhuque': page4, 'cunmin': page5, 'liulangwushi': page6, 'mingshe': page7, '冰鸟': page9, 'bingniao': page10}
 Changyangshan = {'冰鸟': page9}
 Tianshan = {}
 Sishui = {}
